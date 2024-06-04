@@ -1,4 +1,5 @@
 using backend;
+using Microsoft.EntityFrameworkCore;
 
 namespace projekatBE
 {
@@ -17,3 +18,6 @@ namespace projekatBE
                 });
     }
 }
+
+//KOMANDA SCUFFOLDA
+//Scaffold-DbContext "Server=IMESERVERA;Database=IMEBAZE;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
