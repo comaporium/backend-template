@@ -11,22 +11,22 @@ namespace backend_template.Controllers
     //public class HomeController : Controller
     //{
 
-    //    readonly TodoContext db = new TodoContext();
+    //    readonly BazaContext db = new BazaContext();
 
     //    [HttpGet]
     //    public IActionResult GetSve()
     //    {
-    //        List<OnoStoGetamo> sviKorisnici = db.OnoStoGetamos.OrderBy(x => x.Id).ToList();
+    //        List<OnoStoGetamo> onoStoGetamo = db.OnoStoGetamos.OrderBy(x => x.Id).ToList();
 
-    //        return Ok(sviKorisnici);
+    //        return Ok(onoStoGetamo);
     //    }
 
     //    [HttpGet("{id}")]
     //    public IActionResult GetPoIdu(int id)
     //    {
-    //        OnoStoGetamo? korisnik = db.OnoStoGetamos.Where(x => x.Id == id).FirstOrDefault();
+    //        OnoStoGetamo? onoStoGetamo = db.OnoStoGetamos.Where(x => x.Id == id).FirstOrDefault();
 
-    //        return Ok(korisnik);
+    //        return Ok(onoStoGetamo);
     //    }
 
     //    [HttpPost]
@@ -47,7 +47,7 @@ namespace backend_template.Controllers
     //        edit
     //        db.SaveChanges();
 
-    //        return Ok(korisnik);
+    //        return Ok(onoStoAzuriramo);
     //    }
 
     //    [HttpDelete("{id}")]
